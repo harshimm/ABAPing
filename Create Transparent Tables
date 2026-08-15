@@ -1,4 +1,5 @@
-Steps :
+Initial Setup :
+
 1. Open tcode SE11
 2. Enter table name 
 3. Click create
@@ -6,4 +7,12 @@ Steps :
 5. Go to delivery and maintenance tab
 6. Choose Delivery Class 'A'
 7. Data Browser/Table view editing as 'Display / maintenence allowed' 
+8. Save the changes
+9. In the following popup select 'Local Object' as we are not moving the table to any other SAP environment
+10. Save the inputs.
+11. Table is saved.
+12. Click 'Go To'.
+13. Select Object Directory Entry.
+14. The Delivery Class in the popup shows $TMP as we chose to create a local object.
+
 
