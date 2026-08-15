@@ -1,0 +1,9 @@
+Steps :
+1. Open tcode SE11
+2. Enter table name 
+3. Click create
+4. Enter table description in Short Text
+5. Go to delivery and maintenance tab
+6. Choose Delivery Class 'A'
+7. Data Browser/Table view editing as 'Display / maintenence allowed' 
+
