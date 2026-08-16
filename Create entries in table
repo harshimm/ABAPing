@@ -1,0 +1,9 @@
+I. CREATE ENTRIES IN TABLE
+
+1. In table main screen, GoTo->Utilities->Create Entries.
+2. Input fields appear for entry.
+3. By default it appears with thte the technical names.
+4. To change this go to Settings->User paramenters->Enable Field Labels radio button.
+5. Now field label names appear.
+6. Enter Inputs
+7. Save.
