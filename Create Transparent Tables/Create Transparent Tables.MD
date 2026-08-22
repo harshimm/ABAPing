@@ -39,6 +39,7 @@
 
 ## 🔨 TECHNICAL SETTINGS
 
+- Go back to table
 - Click on 'Technical Settings'.
 - Choose Data Category
 - Choose Size Class
