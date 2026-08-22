@@ -6,3 +6,7 @@ This repository contains my ABAP learning journey, the learnings, the mistakes, 
   - [Creation of transparent tables](https://github.com/harshimm/ABAPing/blob/main/Create%20Transparent%20Tables/Create%20Transparent%20Tables.MD)
   - [Create entries in table](https://github.com/harshimm/ABAPing/blob/main/Create%20Transparent%20Tables/Create%20Entries%20in%20Table.MD)
   - [View table entries](https://github.com/harshimm/ABAPing/blob/main/Create%20Transparent%20Tables/View%20Table%20Entries.MD)
+ 
+- [Write statement](https://github.com/harshimm/ABAPing/tree/main/Write%20Statement)
+  - [Code](https://github.com/harshimm/ABAPing/blob/main/Write%20Statement/code)
+  - [Output](https://github.com/harshimm/ABAPing/blob/main/Write%20Statement/code)   
