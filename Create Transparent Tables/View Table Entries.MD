@@ -1,10 +1,10 @@
 # 👀 View Entries
 
-  ## ➡️ In SE11:
+  ### ➡️ In SE11
   - Utilities -> Table contents -> Display.
   - Allows to enter input fields and execute button to view all entries.
 
-  ## ➡️ In SE16N:
+  ### ➡️ In SE16N
   - Enter inputs.
   - Execute.
 
