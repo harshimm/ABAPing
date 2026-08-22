@@ -1,0 +1,39 @@
+*&---------------------------------------------------------------------*
+*& Report ZVIEW_EMP_LEAVES
+*&---------------------------------------------------------------------*
+*&
+*&---------------------------------------------------------------------*
+
+REPORT zview_emp_leaves LINE-SIZE 132. "to define the no. of characters that can be put into a line.
+WRITE 'This is Harshini here !'. "test write statement
+WRITE /. "/ symbol for new line
+
+DATA zhmleavereq TYPE TABLE OF zleavereq. "create internal table
+DATA zhm_leavereq LIKE LINE OF zhmleavereq. "variable to store row
+
+SELECT * FROM zleavereq INTO zhm_leavereq. "prints all fields in the same line
+  WRITE zhm_leavereq-requestid.
+  WRITE zhm_leavereq-talentid.
+ENDSELECT.
+
+ULINE. "for underline
+
+SELECT * FROM zleavereq INTO zhm_leavereq. "adds new line before each row
+  WRITE / zhm_leavereq-requestid.
+  WRITE zhm_leavereq-talentid.
+ENDSELECT.
+
+ULINE.
+
+*SELECT * FROM zleavereq INTO zhm_leavereq. "prints new line
+*  WRITE /.
+*ENDSELECT.
+
+*ULINE.
+
+SKIP 2. "skips 2 lines then prints the field values
+
+SELECT * FROM zleavereq INTO zhm_leavereq.
+  WRITE / zhm_leavereq-requestid.
+  WRITE zhm_leavereq-talentid.
+ENDSELECT.
