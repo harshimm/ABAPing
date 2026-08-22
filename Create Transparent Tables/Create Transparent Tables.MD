@@ -25,7 +25,7 @@
 - After below steps the data element attributes will be reflecting in the main field entry screen.
 - Save the table and activate it.
 
-## 🗒️ DATA ELEMENT
+### 🗒️ DATA ELEMENT
 
 - Each field has a data element.
 - Data element defines the attributes of the field e.g : Data type, Length, decimal, short text
@@ -37,7 +37,7 @@
 - Define the short, medium, long text and header.
 - Save the data element and activate it.
 
-## 🔨 TECHNICAL SETTINGS
+### 🔨 TECHNICAL SETTINGS
 
 - Go back to table
 - Click on 'Technical Settings'.
