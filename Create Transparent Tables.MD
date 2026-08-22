@@ -1,4 +1,4 @@
-I. INITIAL SETUP :
+# INITIAL SETUP :
 
 1. Open tcode SE11
 2. Enter table name 
@@ -15,7 +15,7 @@ I. INITIAL SETUP :
 13. Select Object Directory Entry.
 14. The Delivery Class in the popup shows $TMP as we chose to create a local object.
 
-II. DEFINING FIELDS :
+# DEFINING FIELDS :
 
 1. Go to 'Fields' tab.
 2. Enter field names.
@@ -25,7 +25,8 @@ II. DEFINING FIELDS :
 6. After below steps the data element attributes will be reflecting in the main field entry screen.
 7. Save the table and activate it.
 
-    DATA ELEMENT
+## DATA ELEMENT
+
 1. Each field has a data element.
 2. Data elment defines the attributes of the field e.g : Data type, Length, decimal, short text
 3. Enter a custom data element in the 'Data element' field.
@@ -36,7 +37,8 @@ II. DEFINING FIELDS :
 8. Define the short, medium, long text and header.
 9. Save the data element and activate it.
 
-    TECHNICAL SETTINGS
+## TECHNICAL SETTINGS
+
 1. Click on 'Techinical Settings'.
 2. Choose Data Category
 3. Choose Size Class
