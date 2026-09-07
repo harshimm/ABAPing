@@ -1,0 +1,9 @@
+DATA zhmleavereq TYPE TABLE OF zleavereq.
+DATA zhm_leavereq LIKE LINE OF zhmleavereq.
+
+SKIP 2. "skips a space of 2 lines and prints the contents
+
+SELECT * FROM zleavereq INTO zhmleavereq.
+  WRITE /zhm_leavereq-firstname.
+  WRITE zhm_leavereq-lastname.
+ENDSELECT.
