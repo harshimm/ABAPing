@@ -1,0 +1,10 @@
+DATA zhmleavereq TYPE TABLE OF zleavereq.
+DATA zhm_leavereq LIKE LINE OF zleavereq.
+
+SELECT * FROM zleavereq INTO zhmleavreq.
+  WRITE /zhm_leavereq-employeeid.
+  WRITE zhm_leavereq-firstname.
+  WRITE zhm_leavereq-id.
+ENDSELECT.
+
+ULINE.
