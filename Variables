@@ -1,0 +1,10 @@
+DATA int TYPE i.
+
+DATA dec TYPE p DECIMALS 2.
+DATA dec TYPE p LENGTH 2 DECIMALS 2.
+
+DATA ch TYPE C LENGTH 10.
+
+DATA str TYPE string.
+
+CLEAR <varname>. "set to initial value
