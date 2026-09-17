@@ -1,0 +1,63 @@
+# SUBTRACTION  ➖
+
+### 1. Involving Only Integers
+```
+DATA NUM1 TYPE I VALUE 1.
+DATA NUM2 TYPE I VALUE 2.
+DATA RESULT1 TYPE I.
+
+RESULT1 = NUM1 - NUM2.
+
+WRITE RESULT1. 
+```
+### Output
+```
+1-
+```
+### 2. Involving 1 Integer and 1 decimal.
+```
+DATA NUM3 TYPE P DECIMALS 1 VALUE '2.0'.
+DATA NUM4 TYPE I VALUE 1.
+DATA RESULT2 LIKE NUM3.
+
+RESULT2 = NUM3 - NUM4.
+
+WRITE / RESULT2.
+```
+### Output
+```
+1.0
+```
+
+### 3. Involving only decimal values
+```
+DATA NUM5 TYPE P DECIMALS 1 VALUE '2.0'.
+DATA NUM6 TYPE p DECIMALS 2 VALUE '3.00'.
+DATA RESULT3 LIKE NUM6.
+
+RESULT3 = NUM5 - NUM6.
+
+WRITE / RESULT3.
+```
+
+### Output
+```
+-1.00
+```
+
+### 4. Using the ADD statement
+```
+DATA NUM7 TYPE P DECIMALS 1 VALUE '2.0'.
+DATA NUM8 TYPE p DECIMALS 2 VALUE '3.00'.
+DATA RESULT4 LIKE NUM8.
+
+SUBTRACT NUM7 FROM RESULT4.
+SUBTRACT NUM8 FROM RESULT4.
+
+WRITE / RESULT4.
+```
+
+### Output
+```
+5.00-
+```
