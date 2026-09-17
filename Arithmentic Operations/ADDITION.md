@@ -12,7 +12,7 @@ WRITE RESULT1.
 ```
 ### Output
 ```
-  3
+3
 ```
 ### 2. Involving 1 Integer and 1 decimal.
 ```
@@ -26,7 +26,7 @@ WRITE / RESULT2.
 ```
 ### Output
 ```
-  3.0
+3.0
 ```
 
 ### 3. Involving only decimal values
@@ -45,6 +45,22 @@ WRITE / RESULT3.
 5.00
 ```
 
+### 4. Using the ADD statement
+```
+DATA NUM7 TYPE P DECIMALS 1 VALUE '2.0'.
+DATA NUM8 TYPE p DECIMALS 2 VALUE '3.00'.
+DATA RESULT4 LIKE NUM8.
+
+ADD NUM7 TO RESULT4.
+ADD NUM8 TO RESULT4.
+
+WRITE / RESULT4.
+```
+
+### Output
+```
+5.00
+```
 
 
 
