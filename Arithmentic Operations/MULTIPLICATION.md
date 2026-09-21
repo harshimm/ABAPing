@@ -62,7 +62,7 @@ WRITE / result4.
 6.00
 ```
 
-### Difference in result based on positioning of variables in MULTIPLY statement
+### 5. Difference in result based on positioning of variables in MULTIPLY statement
 ```
 DATA num7 TYPE p DECIMALS 1 VALUE '2.0'.
 DATA num8 TYPE p DECIMALS 2 VALUE '3.00'.
