@@ -45,7 +45,7 @@ WRITE / RESULT3.
 -1.00
 ```
 
-### 4. Using the ADD statement
+### 4. Using the SUBTRACT statement
 ```
 DATA NUM7 TYPE P DECIMALS 1 VALUE '2.0'.
 DATA NUM8 TYPE p DECIMALS 2 VALUE '3.00'.
