@@ -16,7 +16,7 @@ ha
 DATA : main_string TYPE c LENGTH 40 VALUE 'harshini'.
 WRITE main_string+3(5).
 ```
-# Output
+### Output
 ```
 shini
 ```
@@ -28,4 +28,7 @@ DATA : main_string TYPE c LENGTH 40 VALUE 'harshini'.
 main_string(1) = 'd'.
 WRITE main_string.
 ```
-
+### Output
+```
+darshini
+```
